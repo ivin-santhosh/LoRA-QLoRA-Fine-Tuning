@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 from typing import Iterable
 
-_FINAL_NUMBER = re.compile(r"-?\\d+(?:\\.\\d+)?")
+_FINAL_NUMBER = re.compile(r"-?\d+(?:\.\d+)?")
 
 
 def extract_final_number(text: str) -> str | None:

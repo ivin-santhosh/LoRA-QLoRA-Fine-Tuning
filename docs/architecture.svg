@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="ModelStack Lab architecture: training and graph benchmarks produce evidence">
+<rect width="1200" height="320" rx="22" fill="#0b1220"/>
+<text x="44" y="57" font-size="29" font-family="Arial, sans-serif" fill="#f5f7fb" font-weight="bold">MODELSTACK LAB <tspan fill="#80c6e7">/ architecture</tspan></text>
+<text x="45" y="84" font-size="15" font-family="Arial,sans-serif" fill="#a5b5c9">Inspect  •  Verify  •  Benchmark  •  Report  — not a production compiler</text>
+<g font-family="Arial,sans-serif">
+<rect x="44" y="118" width="238" height="76" rx="12" fill="#172942" stroke="#42779b"/>
+<text x="59" y="145" font-size="17" fill="#f1f5fa" font-weight="bold">QLoRA / GRPO</text>
+<text x="59" y="171" font-size="13" fill="#a9c4d8">Existing training scripts</text>
+<rect x="44" y="216" width="238" height="68" rx="12" fill="#172942" stroke="#42779b"/>
+<text x="59" y="244" font-size="17" fill="#f1f5fa" font-weight="bold">Tensor IR / C++17</text>
+<text x="59" y="266" font-size="13" fill="#a9c4d8">CPU reference kernels</text>
+<rect x="362" y="149" width="218" height="97" rx="12" fill="#1e4053" stroke="#68d8c7"/>
+<text x="378" y="180" font-size="17" fill="#f1f5fa" font-weight="bold">Correctness Gate</text>
+<text x="378" y="205" font-size="14" fill="#d6f4ec">Shape + numerical checks</text>
+<text x="378" y="225" font-size="13" fill="#a9c4d8">Fail closed on mismatch</text>
+<rect x="656" y="149" width="214" height="97" rx="12" fill="#233353" stroke="#8aaee4"/>
+<text x="672" y="180" font-size="17" fill="#f1f5fa" font-weight="bold">Benchmark Harness</text>
+<text x="672" y="204" font-size="14" fill="#d9e6ff">Warmup + med / p95</text>
+<text x="672" y="225" font-size="13" fill="#a9c4d8">CPU / optional PyTorch</text>
+<rect x="946" y="149" width="206" height="97" rx="12" fill="#21473d" stroke="#91c5b1"/>
+<text x="962" y="180" font-size="17" fill="#f1f5fa" font-weight="bold">Evidence</text>
+<text x="962" y="203" font-size="14" fill="#c8f1e7">JSON + tested claims</text>
+<text x="962" y="224" font-size="13" fill="#a9c4d8">Repeatable procedures</text>
+</g>
+<g stroke="#87b5c9" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M282 156 L322 156 L322 182 L355 182"/><path d="M282 248 L324 248 L324 215 L355 215"/>
+<path d="M581 198 H645"/><path d="M871 198 H934"/>
+</g><g fill="#87b5c9"><path d="M355 182 l-10 -6 v12 z"/><path d="M355 215 l-10 -6 v12 z"/><path d="M645 198 l-10 -6 v12 z"/><path d="M934 198 l-10 -6 v12 z"/></g>
+</svg>

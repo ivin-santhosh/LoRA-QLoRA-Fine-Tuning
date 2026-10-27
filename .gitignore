@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+# Native build outputs
+build/
+cmake-build-*/
+# Checkpoints, model weights, and private experiment runs
+outputs/
+runs/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.bin
+# OS/editor
+.DS_Store
+.vscode/
